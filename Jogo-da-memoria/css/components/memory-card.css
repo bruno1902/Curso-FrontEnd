@@ -1,3 +1,10 @@
+#root{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
 .memory-card{
     width: 155px;
     height: 155px;
@@ -8,6 +15,7 @@
     align-items: center;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     position: relative;
+    margin-bottom: 10px;
 }   
 
 .memory-card.-front{
